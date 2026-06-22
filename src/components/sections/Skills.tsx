@@ -1,13 +1,26 @@
 const skillGroups = [
   {
-    label: "Backend",
+    label: "Languages & Frameworks",
     skills: [
       "PHP",
       "Laravel",
-      "RESTful API Design",
+      "Filament 3",
+      "Symfony",
+      "Vue.js",
+      "Typescript",
+      "Hono.js",
+      "Node.js",
       "MySQL / MariaDB",
       "Redis",
-      "Queue Systems",
+    ],
+  },
+  {
+    label: "Databases / Caching",
+    skills: [
+      "MariaDB / MySQL",
+      "Postgres",
+      "Redis",
+      "Typesense"
     ],
   },
   {
@@ -18,19 +31,28 @@ const skillGroups = [
       "AWS SES",
       "AWS Cognito",
       "DigitalOcean",
+      "Cloudflare",
       "Docker",
       "CI/CD",
+      "Github Actions",
+      "Vercel",
+      "Railway",
+      "Supabase",
+      "soketi"
     ],
   },
   {
     label: "Tools & Others",
     skills: [
-      "Vue.js",
-      "Node.js",
-      "Filament",
-      "Postman",
       "Git",
+      "PHPUnit / Pest",
+      "Cypress",
+      "Technical Architecture",
       "Agile / Scrum",
+      "OpenAI",
+      "Claude",
+      "Claude Code",
+      "Agentic Coding"
     ],
   },
 ];

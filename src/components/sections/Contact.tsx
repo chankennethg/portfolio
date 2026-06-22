@@ -9,7 +9,7 @@ export default function Contact() {
           Open to remote Senior/Lead Backend roles
         </p>
         <p className="text-[var(--muted)] mb-10 max-w-md mx-auto">
-          Particularly interested in Australian and Western timezone teams.
+          Available in any timezone teams.
           Let&apos;s talk.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
