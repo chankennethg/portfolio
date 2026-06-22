@@ -5,9 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Uncomment and set to your repo name if deploying to:
-  // https://<username>.github.io/<repo-name>/
-  // basePath: "/chankennethg",
+  // Deploying to https://chankennethg.github.io/portfolio/
+  basePath: "/portfolio",
 };
 
 export default nextConfig;
