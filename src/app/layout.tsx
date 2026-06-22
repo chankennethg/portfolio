@@ -9,11 +9,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kenneth Chan — Senior Backend Engineer & Technical Lead",
+  title: "Kenneth Chan – Senior Backend Engineer & Technical Lead",
   description:
     "10+ years building scalable backend systems with PHP, Laravel, and AWS. Open to remote Senior/Lead Backend roles.",
   openGraph: {
-    title: "Kenneth Chan — Senior Backend Engineer & Technical Lead",
+    title: "Kenneth Chan – Senior Backend Engineer & Technical Lead",
     description:
       "10+ years building scalable backend systems with PHP, Laravel, and AWS.",
     type: "website",

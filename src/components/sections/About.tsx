@@ -11,7 +11,7 @@ export default function About() {
               Backend specialist with a decade of shipping systems that scale.
             </p>
             <p className="text-[var(--muted)] leading-relaxed mb-4">
-              I design and build the infrastructure that products run on —
+              I design and build the infrastructure that products run on:
               high-throughput APIs, queue-driven pipelines, and cloud
               architectures that handle real traffic without drama. My focus is
               always on correctness, performance, and maintainability over

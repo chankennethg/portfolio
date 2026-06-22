@@ -2,7 +2,7 @@ const roles = [
   {
     title: "Lead Developer & Technical Architect",
     company: "Indoxnito",
-    period: "Apr 2024 — Present",
+    period: "Apr 2024 – Present",
     bullets: [
       "Architected a crypto-focused social platform on Laravel and AWS from the ground up",
       "Designed a multi-identity persona system enabling users to operate under distinct on-chain identities",
@@ -13,7 +13,7 @@ const roles = [
   {
     title: "Senior Web Developer",
     company: "CC.Talent",
-    period: "May 2023 — Dec 2025",
+    period: "May 2023 – Dec 2025",
     bullets: [
       "Maintained and extended football media platforms serving 4.75M monthly users",
       "Led adoption of Filament 3 for internal admin tooling, cutting development time on back-office features",
@@ -24,7 +24,7 @@ const roles = [
   {
     title: "Backend API Consultant",
     company: "Freelance",
-    period: "Mar 2022 — May 2023",
+    period: "Mar 2022 – May 2023",
     bullets: [
       "Designed and built a hospital reservation system on Laravel and AWS",
       "Reduced API response times from 20–30 seconds to under 1 second using Laravel Queues and async processing",
@@ -34,7 +34,7 @@ const roles = [
   {
     title: "Technical Team Lead",
     company: "Cafe24 Philippines",
-    period: "Sep 2016 — Jan 2023",
+    period: "Sep 2016 – Jan 2023",
     bullets: [
       "Led engineering teams of up to 30 developers on a large-scale SaaS e-commerce platform",
       "Delivered platform features for 100,000+ active merchants across Southeast Asia",
@@ -78,7 +78,7 @@ export default function Experience() {
                 <ul className="flex flex-col gap-2">
                   {role.bullets.map((bullet, j) => (
                     <li key={j} className="flex gap-3 text-sm text-[var(--muted)]">
-                      <span className="text-[var(--accent)] mt-0.5 shrink-0">—</span>
+                      <span className="text-[var(--accent)] mt-0.5 shrink-0">›</span>
                       <span>{bullet}</span>
                     </li>
                   ))}
