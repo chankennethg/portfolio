@@ -11,54 +11,42 @@ type Project = {
 const projects: Project[] = [
   // ── Personal Projects ──────────────────────────────────────────────────────
   {
-    name: "Kariro",
+    name: "Paddle Up",
     status: "In Progress",
     type: "personal",
-    url: "", // e.g. "https://kariro.app"
+    url: "https://paddle-up-web.vercel.app/", // e.g. "https://kariro.app"
     description:
-      "AI-powered job application tracker that automates status updates, surfaces insights, and keeps candidates organized throughout their job search.",
+      "Simple Pickleball queue manager made to be used by our personal club.",
     stack: [
       "Hono",
-      "Next.js 15",
-      "BullMQ",
-      "Upstash Redis",
+      "Next.js 16",
+      "Supabase - Postgres",
+      "Redis",
       "Drizzle ORM",
-      "Supabase",
-      "Gemini",
     ],
-    highlight: "AI-assisted application tracking with background job processing",
+    highlight: "Realtime monitoring of players and active players in court",
   },
 
   // ── Professional Projects ──────────────────────────────────────────────────
   {
     name: "Indoxnito",
-    status: "Live",
+    status: "In Progress",
     type: "professional",
-    url: "", // e.g. "https://indoxnito.com"
+    url: "https://indoxnito.com",
     description:
       "Crypto-focused social platform built for on-chain identity and community. Supports multi-identity personas, community groups, and voting mechanics.",
     stack: ["Laravel v10", "MariaDB", "Redis", "Soketi", "AWS"],
     highlight: "Multi-identity persona system with on-chain social graph",
   },
   {
-    name: "CC.Talent Football Media",
+    name: "Realtimes Football Media Sites",
     status: "Live",
     type: "professional",
-    url: "", // e.g. "https://cc.talent"
+    url: "https://www.realtimesnetwork.com/en/",
     description:
       "Football media platforms serving 4.75M monthly users. Integrated live sports data from Opta and Sportmonks, and led adoption of Filament 3 for back-office tooling.",
-    stack: ["Laravel", "Filament 3", "Opta", "Sportmonks", "Docker"],
+    stack: ["Laravel", "Filament 3", "Typesense", "MariaDB", "Cloudflare", "Docker"],
     highlight: "4.75M monthly users across multiple football media properties",
-  },
-  {
-    name: "Hospital Reservation System",
-    status: "Live",
-    type: "professional",
-    url: "", // e.g. "https://..."
-    description:
-      "End-to-end hospital appointment and reservation system. Delivered a 95%+ reduction in API response times through queue-based architecture.",
-    stack: ["Laravel", "AWS SES", "AWS Cognito", "S3", "Laravel Queues"],
-    highlight: "Response time reduced from 20-30s to under 1s",
   },
 ];
 
@@ -143,7 +131,7 @@ export default function Projects() {
 
           <div>
             <h3 className="text-sm font-semibold text-[var(--foreground)] mb-6">
-              Professional
+              Recent Professional Projects
             </h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {professional.map((p) => (
